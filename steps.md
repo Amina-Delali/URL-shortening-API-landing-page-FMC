@@ -1,0 +1,15 @@
+- Desktop
+    - nav
+    - first section: presentation
+    - second section: url shortening
+    - third section: advanced statistics
+    - fourth section: get started
+    - footer
+
+- Mobile
+    - nav
+    - first section: presentation
+    - second section: url shortening
+    - third section: advanced statistics
+    - fourth section: get started
+    - footer

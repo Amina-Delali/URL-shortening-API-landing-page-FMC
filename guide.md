@@ -1,5 +1,5 @@
 # Estimation
-10 Hours
+20 Hours
 
 # The challenge
 
