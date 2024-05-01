@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
-nav-right {
+.nav-right {
 display: flex;
 align-items:flex-end;
 justify-content: right;
-gap: 200px;
-flex-direction: column;
+gap: 20px;
+
 }
 
-nav-left {
+.nav-left {
 
 }
 
@@ -39,9 +39,18 @@ nav {
 .nav__link{
 color:red;
 text-decoration: none;
+font-family: URL("https://fonts.google.com/specimen/Poppins");
+font-weight: 700;
+font-size: small;
+color: hsl(257, 7%, 63%);
+
 }
 .nav__link--bold{
-color: yellow;
+background-color: hsl(180, 66%, 49%);
+border-radius: 20px;
+padding: 5px 20px;
+color:whitesmoke;
+
 }
 
 
