@@ -36,7 +36,7 @@
   --button-border-raidus: 20px;
   --nav-font-weight: 700;
   --nav-gap: 30px;
-  --button-padding: 5px 20px 10px;
+  --button-padding: 5px 15px 5px;
   --font-family:  "Poppins", sans-serif;
   --page-padding:  20px 100px;
 }
@@ -152,7 +152,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
 body {
@@ -221,23 +220,38 @@ main {
 
 .pres{
   display:flex;
-  justify-content: space-between;
+  justify-content:space-between;
   padding: var(--page-padding);
-}
+  width:100vw;
+  align-items: flex-start;
 
 .pres__left{
 color: red;
+width:40%;
+
 }
 
 .pres__right{
-  
+  background-color: yellow;
+  width:40%;
 }
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--dark-blue);
+  margin-bottom: 2px;
+  font-size: 50px;
+  font-weight: 700;
+letter-spacing: 0.01cm;
+word-spacing: 0.01cm;
+line-height: 1.5cm;
 }
 
 p{
   color: gray;
+margin-bottom: 20px;
+}
+
+.pres__link{
+  padding: 10px 30px 10px;
 }
