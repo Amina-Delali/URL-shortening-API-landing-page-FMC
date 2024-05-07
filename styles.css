@@ -214,44 +214,52 @@ color:whitesmoke;
   font-size:x-large;
   }
 
-main {
-  padding: 1rem;
-}
 
 .pres{
   display:flex;
   justify-content:space-between;
   padding: var(--page-padding);
-  width:100vw;
-  align-items: flex-start;
-
+  padding-right: 0%;
+  margin-right: -80px;
+  align-items: center;
+}
 .pres__left{
-color: red;
-width:40%;
+width: 30%;
+background-color: red;
 
 }
 
 .pres__right{
   background-color: yellow;
-  width:40%;
+  width: 45%;
+
 }
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
   color: var(--dark-blue);
   margin-bottom: 2px;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
 letter-spacing: 0.01cm;
 word-spacing: 0.01cm;
-line-height: 1.5cm;
+line-height: 70px;
 }
 
 p{
   color: gray;
-margin-bottom: 20px;
+margin-bottom: 30px;
+font-size: 18px;
 }
 
 .pres__link{
   padding: 10px 30px 10px;
+  font-size: 16px;
+  font-weight: 500px;
+
+}
+img{
+  
+  clip-path: inset(0px 50px 0px 0 round 0px);
+
 }
