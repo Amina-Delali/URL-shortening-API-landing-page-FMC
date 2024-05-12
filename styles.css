@@ -1,19 +1,5 @@
 /* 
-### Primary
 
-- Cyan: hsl(180, 66%, 49%)
-- Dark Violet: hsl(257, 27%, 26%)
-
-### Secondary
-
-- Red: hsl(0, 87%, 67%)
-
-### Neutral
-
-- Gray: hsl(0, 0%, 75%)
-- Grayish Violet: hsl(257, 7%, 63%)
-- Very Dark Blue: hsl(255, 11%, 22%)
-- Very Dark Violet: hsl(260, 8%, 14%)
 
 ## Typography
 
@@ -250,8 +236,8 @@ word-spacing: 0.01cm;
 line-height: 70px;
 }
 
-p{
-  color: gray;
+ p{
+  color: var(--light-gray);
 margin-bottom: 30px;
 font-size: 18px;
 }
@@ -323,6 +309,25 @@ border-style: none;
   background-color: #F0F1F6;
   width: 100%;
   align-items:baseline;
-  height:200px;
+  /* height:200px; */
   margin-top:-80px;
+}
+.stats__title{
+
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+}
+
+.stats__title h2{
+margin-bottom: 18px;
+}
+
+.stats__title p{
+color:var(--light-gray);
+font-size: 14px;
+text-align: center;
+max-width: 400px;
 }
