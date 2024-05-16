@@ -214,14 +214,14 @@ color:whitesmoke;
   align-items: center;
 }
 .pres__left{
-width: 40%;
+width: 45%;
 /* background-color: red; */
 
 }
 
 .pres__right{
   /* background-color: yellow; */
-  width: 40%;
+  width: 50%;
 
 }
 h1 {
@@ -229,7 +229,7 @@ h1 {
   font-size: 1.5rem;
   color: var(--dark-blue);
   margin-bottom: 2px;
-  font-size: 55px;
+  font-size: 58px;
   font-weight: 700;
 letter-spacing: 0.01cm;
 word-spacing: 0.01cm;
@@ -438,6 +438,32 @@ hr{
 
   }
 
+.boost{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  padding:40px;
+  background-color: var(--dark-violet);
+  background-image: url("images/bg-boost-desktop.svg");
+background-size: cover; 
+background-repeat: no-repeat;
+background-position: center;
+ width:100%;
+  height: auto;
+}
+
+
+.boost h2{
+color: white;
+
+}
+
+
+
+
+}
 footer{
   background-color: blueviolet;
 }
