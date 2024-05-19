@@ -265,7 +265,6 @@ font-size: 18px;
 
 .link-short__form{
 display:flex;
-
 justify-content: space-around;
 background-color: var(--dark-violet);
 background-image: url(images/bg-shorten-desktop.svg);
@@ -282,8 +281,8 @@ border-style: none;
 }
 
 button{
-  width:15%;
-  border-radius: 10px;
+width:15%;
+border-radius: 10px;
 border-style: none;
 }
 
@@ -464,12 +463,14 @@ color: white;
 
 .foot{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flext-start;
   color: white;
   background-color:var(--very-dark-violet);
   padding-bottom:50px;
   padding-top: 50px;
+  width:100%;
+  gap: 200px;
 }
 
 .foot__logo {
@@ -482,15 +483,17 @@ color: white;
 width:70%;
 /* align-self: flex-start; */
 margin-top: 6px;
-fill:white;
+
 }
 
 .foot__links{
   display:flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap:20px;
-  
+  gap:40px;
+  font-size: 10px;
+  line-height: 20px;
+
 }
 
 .foot__links ul {
@@ -508,18 +511,30 @@ fill:white;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
-.foot__links__resources ul:first-child{
-  margin-bottom: 120px;
-  color:red;
+
+.foot__links__features li:first-child{
+  margin-bottom: 10px;
+
 }
-.foot__links__company{
+
+.foot__links__resources li:first-child{
+  margin-bottom: 10px;
+}
+.foot__links__company li:first-child{
+  margin-bottom: 10px;
+
 }
 
 .foot__social{
-  display:flex;
+display:flex;
 align-items:flex-start;
 justify-content:  flex-start;
+gap: 10px;
+width: 100%;
+}
 
+.foot__social img{
+  width: 60%;
 }
