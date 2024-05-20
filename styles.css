@@ -1,19 +1,8 @@
-/* 
+/* The designs were created to the following widths:
 
-
-## Typography
-
-### Body Copy
-
-- Font size: 18px
-
-### Fonts
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 500, 700
-
+- Mobile: 375px
+- Desktop: 1440px
  */
-
 
 :root {
   --green:  hsl(180, 66%, 49%);
@@ -229,17 +218,18 @@ h1 {
   font-size: 1.5rem;
   color: var(--dark-blue);
   margin-bottom: 2px;
-  font-size: 58px;
+  font-size: 70px;
   font-weight: 700;
-letter-spacing: 0.01cm;
-word-spacing: 0.01cm;
+/* letter-spacing: 0.01cm;
+word-spacing: 0.01cm; */
 line-height: 70px;
 }
 
  p{
   color: var(--light-gray);
 margin-bottom: 30px;
-font-size: 18px;
+font-size: 20px;
+max-width: 530px;
 }
 
 .pres__link{
@@ -269,15 +259,27 @@ justify-content: space-around;
 background-color: var(--dark-violet);
 background-image: url(images/bg-shorten-desktop.svg);
 width: 100%;
-padding:40px 50px 40px 50px;
+padding:50px 50px 50px 50px;
 border-radius: 10px;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 input{
 width:80%;
-height:40px;
+height:60px;
 border-radius: 10px;
 border-style: none;
+font-size: 20px;
+color:var(--light-gray);
+padding: 20px;
+
+}
+
+input::placeholder{
+  color:var(--light-gray);
+  padding: 20px;
+
 }
 
 button{
@@ -307,16 +309,15 @@ border-style: none;
   flex-direction: column;
   justify-content:center;
   align-items:center;
-  align-content: center;
-  
+  align-content: center;  
   background-color: #F0F1F6;
   width: 100%;
   align-items:baseline;
   
   margin-top:-80px;
 }
-.stats__title{
 
+.stats__title{
 display:flex;
 flex-direction: column;
 justify-content: center;
@@ -327,14 +328,15 @@ width: 100%;
 }
 
 .stats__title h2{
-margin-bottom: 18px;
+margin-bottom: 16px;
+font-size: 40px;
 }
 
 .stats__title p{
 color:var(--light-gray);
-font-size: 14px;
+font-size: 18px;
 text-align: center;
-max-width: 400px;
+max-width: 520px;
 }
 
 .stats__cards{
@@ -360,9 +362,9 @@ max-width: 400px;
 }
 .stats__cards__card p{
   color:var(--light-gray);
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
-  max-width: 230px;
+  max-width: 335px;
   }
 
 
@@ -405,16 +407,8 @@ margin-bottom: 15px;
     margin-top: 120px;
   }
 
-  .decorator{
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid yellow;
-    margin: 1em 0;
-    padding: 0;
-    color:var(--green);
-    
-  }
+  
+
 
 .stats__line{
  
