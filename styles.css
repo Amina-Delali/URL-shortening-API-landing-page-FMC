@@ -220,7 +220,6 @@ h1 {
   margin-bottom: 2px;
   font-size: 70px;
   font-weight: 700;
-  color:red;
 /* letter-spacing: 0.01cm;
 word-spacing: 0.01cm; */
 line-height: 70px;
@@ -369,7 +368,7 @@ max-width: 520px;
   color:var(--light-gray);
   font-size: 13.5px;
   text-align: left;
-  max-width: 323px;
+  max-width: 255px;
   /* width: 100%; */
   /* letter-spacing: 0.05rem; */
   }
