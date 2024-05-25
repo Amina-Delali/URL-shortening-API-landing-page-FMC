@@ -43,7 +43,7 @@ body {
   color: black;
   font-family: var(--font-family);
   background-color: white;
-  padding: var(--page-padding);
+  /* padding: var(--page-padding); */
 }
 
 .container{
@@ -51,24 +51,34 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  padding: var(--page-padding);
+  
 }
 .container__logo{
-  width:20%;
+  width:40%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-
 }
 
+.container__toggle{
+  width:20%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  color: var(--light-gray);
+
+}
 nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 0.5rem;
-display: none;
+  gap: 0.5rem;  
+  display: none;
 }
 
 .nav-right {
@@ -88,6 +98,36 @@ display: none;
     
   }
 
+  #logo_nav
+  {
+    cursor:pointer;
+  }
+
+  .pres{
+    display:flex;
+    padding-right: 0%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: var(--page-padding);
+    padding-right: 0;
+    padding-top: 0;
+    /* gap:10px; */
+    background-color: bisque;
+    
+  }
+
+  .pres__left{
+    width: 100%;
+    background-color: red;
+    margin-right: -150px;
+    }
+
+    .pres__right{
+      width: 100%;
+      background-color: aqua;
+    
+    }
 @media only screen and (min-width: 1200px) {
 
   nav {
@@ -129,9 +169,7 @@ display: none;
   border-radius: var(--button-border-raidus);
   padding: var(--button-padding);
   font-weight: var(--nav-font-weight);
-  
-  color:whitesmoke;
-  
+  color:whitesmoke;  
   }
   
   .nav-left :first-child{
@@ -141,11 +179,13 @@ display: none;
   
   
   .pres{
-    display:flex;
+    /* display:flex; */
     justify-content:space-between;
-    padding: var(--page-padding);
-    padding-right: 0%;
+    /* padding: var(--page-padding); */
+    /* padding: 0 !important;
+    margin: 0 !important; */
     align-items: center;
+    flex-direction: row;
   }
   .pres__left{
   width: 45%;
