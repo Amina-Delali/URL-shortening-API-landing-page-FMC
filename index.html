@@ -24,13 +24,15 @@
 
   </head>
   <body>
+
     <header class="container">
+      
       <div class="container__logo">
  
         <img id="logo_nav" src="images/logo.svg" width="100%" height="100%" onclick="window.location.href = '#'" />
      
     </div>
-    <nav class="container__nav">
+    <nav id="burger-menu" class="container__nav">
       <div class="nav-left">      
         <a href="#" class="nav__link">Features</a>
         <a href="#" class="nav__link">Pricing</a>
@@ -43,8 +45,11 @@
       </div>     
     </nav>
 
-    <div class="container__toggle">
-      <i class="fa fa-bars fa-2x"></i>
+    <div class="container__toggle" onclick='document.getElementById("burger-menu").classList.toggle("visible")'>
+      <!-- <i class="fa fa-bars fa-2x"></i> -->
+      <div class="container__toggle__bar"></div>
+      <div class="container__toggle__bar"></div>
+      <div class="container__toggle__bar"></div>
             </div>
   </header>
     <main>
