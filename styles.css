@@ -342,14 +342,22 @@ max-width: 520px;
 .stats__cards{
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  padding: var(--page-padding);
+  gap: 10px;
+
+
+  /* justify-content: space-between;
   align-items: center;
   text-align: center;
   width: 100%;
-  gap: 5px;
+  gap: 10px;
   padding: var(--page-padding);
-  margin-top: 15px;
+  margin-top: 15px; */
 
+}
+.stats__cards >.stats__cards__card {
+  flex-grow: 1;
 }
 
 .stats__cards__card{
@@ -358,11 +366,12 @@ max-width: 520px;
   text-align: left;
   border-radius: 5px;
   z-index: 1;
+  width: 33.33%;
 
 }
 .stats__cards__card p{
   color:var(--light-gray);
-  font-size: 14px;
+  font-size: 13px;
   text-align: left;
   max-width: 335px;
   }
